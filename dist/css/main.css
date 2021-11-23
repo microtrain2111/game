@@ -1,2 +1,15 @@
 canvas {
-  background: #222; }
+  background: #0a34ef;
+  border: 15px solid #f8a814;
+  border-radius: 50px; }
+
+/* 4. Over lay the score on the top left corner of the canvas.*/
+#score {
+  position: absolute;
+  top: 20px;
+  left: 380px;
+  z-index: 100;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Mansalva', cursive;
+  color: #fff; }
